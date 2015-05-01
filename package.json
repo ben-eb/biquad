@@ -1,0 +1,24 @@
+{
+  "name": "biquad",
+  "version": "0.0.0",
+  "description": "Tiny utility for creating biquad filter nodes.",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/ben-eb/biquad",
+  "author": {
+    "name": "Ben Briggs",
+    "email": "therealbenbriggs@hotmail.com",
+    "url": "http://beneb.info"
+  },
+  "repository": "ben-eb/biquad",
+  "keywords": [
+    "web audio api",
+    "web-audio-api",
+    "biquad",
+    "filter",
+    "audio"
+  ],
+  "dependencies": {
+    "object-assign": "^2.0.0"
+  }
+}
