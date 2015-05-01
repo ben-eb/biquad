@@ -9,8 +9,8 @@ npm install biquad --save
 ```
 
 This is designed to be used in a Web Audio API capable browser with
-[https://github.com/substack/node-browserify](browserify). See the excellent
-[https://github.com/substack/browserify-handbook](browserify handbook) for
+[browserify](https://github.com/substack/browserify). See the excellent
+[browserify handbook](https://github.com/substack/browserify-handbook) for
 information on how all of that works.
 
 ## Example
@@ -42,7 +42,7 @@ var highpass = biquad.highpass({ frequency: 20000 });
 
 ## API
 
-### biquad[filterType]([context], options)
+### biquad.filterType([context], options)
 
 Each `filterType` is aliased here for convenience. For a full list see
 [MDN's developer documentation][docs]. `options` is an object where you can set
@@ -72,6 +72,6 @@ var biquadFilter = biquad.lowshelf({
 
 ## License
 
-MIT © Ben Briggs
+MIT © [Ben Briggs](http://beneb.info)
 
 [docs]: https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode.type
