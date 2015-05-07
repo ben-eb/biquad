@@ -1,6 +1,6 @@
 {
   "name": "biquad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny utility for creating biquad filter nodes.",
   "main": "index.js",
   "license": "MIT",
