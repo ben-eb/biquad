@@ -8,8 +8,8 @@ var audioContext;
  * @param  {Object} defaults Default options (usually just type)
  * @api private
  */
-function _createBiquadFilter(defaults) {
-    return function(context, opts) {
+function _createBiquadFilter (defaults) {
+    return function (context, opts) {
         if (audioContext) {
             opts = context;
             context = audioContext;
@@ -18,7 +18,7 @@ function _createBiquadFilter(defaults) {
 
         var filter = context.createBiquadFilter();
 
-        Object.keys(opts).forEach(function(option) {
+        Object.keys(opts).forEach(function (option) {
             if (option !== 'type') {
                 filter[option].value = opts[option];
             } else {
@@ -43,7 +43,7 @@ var allpass   = _createBiquadFilter({type: 'allpass'});
  * Export it
  */
 
-module.exports = function setContext(context) {
+module.exports = function setContext (context) {
     audioContext = context;
     return {
         lowpass: lowpass,
